@@ -9,7 +9,7 @@ class CalculateContributionServiceTest {
     @Test
     void calculateContribution() {
         CalculateContributionService calculateContribution = new CalculateContributionService();
-        int contribution = calculateContribution.calculateContribution(10000,1,8);
-        assertEquals(10800, contribution);
+        int contribution = calculateContribution.calculateContribution(10_000,1,8);
+        assertEquals(10_800, contribution);
     }
 }
